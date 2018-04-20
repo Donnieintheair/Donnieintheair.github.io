@@ -3,134 +3,64 @@
 <head>
 <meta charset="utf-8">
 <title>无标题文档</title>
-<style>
-body{ }
-#mydiv{ width:108px; height:90px; background-color:pink;}
-#mydiv:hover{ background-color:blue;}
-table, td{ border-collapse:collapse; border:5px solid #3c3c3c; text-align:center;}
-td{ width:80px; height:33px;}
-.mytable{ display:inline-block; float:left; margin:20px 20px;}
-#mymy, hr{ clear:both;}
-</style>
+<link rel="stylesheet" href="css/test.css">
+<script src="js/test.js"></script>
 </head>
 
 <body>
-<a href="http://www.baidu.com" title='我是title'>这是一个a标签</a><br />
-    <hr />
-    <div class="mytable">
-    <table>
-    <caption>A form</caption>
-    <tr>
-    	<td>1</td>
-    	<td>2</td>
-    	<td>3</td>
-        <td>4</td>
-    </tr>
-    <tr>
-    	<td>5</td>
-    	<td>6</td>
-    	<td colspan="2">7</td>
-    </tr>
-    <tr>
-    	<td rowspan="3">8</td>
-    	<td colspan="2">9</td>
-    	<td>10</td>
-    </tr>
-    <tr>
-    	<td colspan="3">11</td>
-    </tr>
-    <tr>
-    	<td colspan="3">12</td>
-    </tr>
-    
-    </table>
+	<div id="choosediv">请选择月份：
+    	<select name="" id="choose">
+        <option value="0">一月</option>
+        <option value="1">二月</option>
+        <option value="2">三月</option>
+        <option value="3">四月</option>
+        <option value="4">五月</option>
+        <option value="5">六月</option>
+        <option value="6">七月</option>
+        <option value="7">八月</option>
+        <option value="8">九月</option>
+        <option value="9">十月</option>
+        <option value="10">十一月</option>
+        <option value="11">十二月</option>
+        </select>
     </div>
-    <div class="mytable">
-    <table>
-    <caption>B form</caption>
-    <tr>
-    	<td>1</td>
-    	<td>2</td>
-    	<td>3</td>
-        <td>4</td>
-    </tr>
-    <tr>
-    	<td>5</td>
-    	<td>6</td>
-    	<td rowspan="2">7</td>
-        <td>8</td>
-    </tr>
-    <tr>
-    	<td rowspan="3">9</td>
-    	<td>10</td>
-    	<td>11</td>
-    </tr>
-    <tr>
-    	<td colspan="3">12</td>
-    </tr>
-    <tr>
-    	<td colspan="3">13</td>
-    </tr>
-    
-    </table>
-    </div>
-    <div class="mytable">
-    <table>
-    <caption>C form</caption>
-    <tr>
-    	<td>1</td>
-    	<td>2</td>
-    	<td>3</td>
-        <td>4</td>
-    </tr>
-    <tr>
-    	<td>5</td>
-    	<td>6</td>
-    	<td rowspan="2" colspan="2">7</td>
-        
-    </tr>
-    <tr>
-    	<td rowspan="3">8</td>
-    	<td>9</td>
-    	
-    </tr>
-    <tr>
-    	<td colspan="3">10</td>
-    </tr>
-    <tr>
-    	<td colspan="3">11</td>
-    </tr>
-    
-    </table>
-    </div>
-    <hr />
-    <div id="mydiv"> 
-    
-    </div>
-    <hr />
-    <form action="save.php" method="post">
-	账户名：<input type="text" placeholder="请输入账户名"><br />
-    密码：<input type="password" placeholder="请输入密码"><br /><br />
-    请选择你最喜欢的科目：<br />
-    <input type="radio" name="subject" value="Chinese">语文
-    <input type="radio" name="subject" value="Math">数学
-    <input type="radio" name="subject" value="English">英语<br /><br />
-    请选择你喜欢的运动：<br />
-    <input type="checkbox" name="sports" value="Swimming">游泳
-    <input type="checkbox" name="sports" value="Running">跑步
-    <input type="checkbox" name="sports" value="Basketball">篮球
-    <br />
-    <textarea name="mytextarea" id="mytextarea" cols="10" rows="1"></textarea>
-    <br />
-    请选择你最喜欢的科目：
-    <select name="myselect" id="myselect">
-    	<option value="Chinese">语文</option>
-        <option value="Math">数学</option>
-        <option value="English">英语</option>
-    </select>
-    <input type="submit" value="submit">
-    <input type="button" value="button">
-    <button>这是一个button</button>
-    </form>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
+	<div class="monthdiv">
+		<table class="month"></table>
+	</div>
 </body>
+
+
 </html>
